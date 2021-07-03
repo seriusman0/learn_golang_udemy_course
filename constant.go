@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 	//Const adalah var yang tidak bisa diubah lagi nilainya
-	string firstName string = "Seriusman"
+	const firstName string = "Seriusman"
 
 	//tanpa menyisipkan tipe data
-	string lastName = "Waruwu"
+	const lastName = "Waruwu"
 
 	fmt.Println("First Name = ", firstName)
 	fmt.Println("Last Name = ", lastName)
@@ -17,6 +17,6 @@ func main() {
 	// lastName = "New Last Name"
 
 	// Note :
-		// Deklarasi Pertama kali const harus ada nilai/value
-		// walaupun tidak digunakan, maka const tidak masalah
+	// Deklarasi Pertama kali const harus ada nilai/value
+	// walaupun tidak digunakan, maka const tidak masalah
 }
