@@ -19,4 +19,10 @@ func main() {
 	// Note :
 	// Deklarasi Pertama kali const harus ada nilai/value
 	// walaupun tidak digunakan, maka const tidak masalah
+
+	//DEKLARASI BEBERAPA CONST
+	const (
+		age   = 20
+		hobby = "watching"
+	)
 }
