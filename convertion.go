@@ -17,4 +17,18 @@ func main() {
 	fmt.Println("First Value = ", firstValue)
 	fmt.Println("Convertion Value = ", conValue)
 
+	var name = "Serius"
+	var cName = name[0]
+	var rName = string(cName)
+	var random = string(83)
+
+	fmt.Println("Name : ", name)
+	fmt.Println("Character Name : ", cName)
+	fmt.Println("Return Name : ", rName)
+	fmt.Println("Return Random : ", random)
+
+	for i := 0; i < 10000; i++ {
+		fmt.Println(i, ". => ", string(i))
+	}
+
 }
